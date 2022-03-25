@@ -69,12 +69,12 @@ $(function () {
 
     moment.locale(Global.locale);
 
-    $('abbr.timeago').each(function () {
+    /*$('abbr.timeago').each(function () {
         var $el = $(this);
         $el
             .livestamp($el.data('timeago'))
             .tooltip();
-    });
+    });*/
 
     window.Cachet.Notifier = function () {
         this.notify = function (message, type, options) {
@@ -114,7 +114,7 @@ $(function () {
         });
     });
 
-    $('[data-toggle="tooltip"]').tooltip();
+    //$('[data-toggle="tooltip"]').tooltip();
 
     $('button.close').on('click', function () {
         $(this).parents('div.alert').addClass('hide');
