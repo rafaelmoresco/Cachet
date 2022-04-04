@@ -120,7 +120,10 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true,
-        "process-timeout": 900
+        "process-timeout": 900,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     },
     "extra": {
         "branch-alias": {
